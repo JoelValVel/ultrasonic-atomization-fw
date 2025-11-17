@@ -1,0 +1,2623 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"12 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\LM35_TI/LM35_TI.c
+[e E377 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"32
+[e E565 . `uc
+Celsius 0
+Kelvin 1
+Farenheit 2
+]
+"139 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/adc/src/adc.c
+[e E17119 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"164
+[e E17127 . `uc
+ADC_BASIC 0
+ADC_SERIES_ACCUMULATE 1
+ADC_SERIES_AVERAGE 2
+ADC_BURST_AVERAGE 3
+ADC_LOW_PASS_FILTER 4
+]
+"169
+[e E17141 . `uc
+ADC_NEVER_INTERRUPT 0
+ADC_BELOW_LOWER_THRESHOLD 1
+ADC_ABOVE_LOWER_THRESHOLD 2
+ADC_INSIDE_LOWER_AND_UPPER_THRESHOLD 3
+ADC_OUTSIDE_LOWER_AND_UPPER_THRESHOLD 4
+ADC_BELOW_UPPER_THRESHOLD 5
+ADC_ABOVE_UPPER_THRESHOLD 6
+ADC_ALWAYS_INTERRUPT 7
+]
+"308
+[e E17189 . `uc
+ADC_NOT_CONVERTING 0
+ADC_1ST_PRECHARGE 1
+ADC_1ST_ACQUISITION 2
+ADC_1ST_CONVERSION 3
+ADC_SUSPENDED_BETWEEN_1ST_AND_2ND_SAMPLE 4
+ADC_2ND_PRECHARGE 5
+ADC_2ND_ACQUISITION 6
+ADC_2ND_CONVERSION 7
+]
+"313
+[e E17151 . `uc
+ADC_TRIGGER_SOURCE_DISABLED 0
+ADC_TRIGGER_SOURCE_ADACTPPS 1
+ADC_TRIGGER_SOURCE_TMR0 2
+ADC_TRIGGER_SOURCE_TMR1 3
+ADC_TRIGGER_SOURCE_TMR2 4
+ADC_TRIGGER_SOURCE_TMR3 5
+ADC_TRIGGER_SOURCE_TMR4 6
+ADC_TRIGGER_SOURCE_TMR5 7
+ADC_TRIGGER_SOURCE_TMR6 8
+ADC_TRIGGER_SOURCE_SMT1_OVERFLOW 14
+ADC_TRIGGER_SOURCE_CCP1 15
+ADC_TRIGGER_SOURCE_CCP2 16
+ADC_TRIGGER_SOURCE_CCP3 17
+ADC_TRIGGER_SOURCE_PWM1_OUT1 18
+ADC_TRIGGER_SOURCE_PWM1_OUT2 19
+ADC_TRIGGER_SOURCE_PWM2_OUT1 20
+ADC_TRIGGER_SOURCE_PWM2_OUT2 21
+ADC_TRIGGER_SOURCE_PWM3_OUT1 22
+ADC_TRIGGER_SOURCE_PWM3_OUT2 23
+ADC_TRIGGER_SOURCE_NCO1 26
+ADC_TRIGGER_SOURCE_NCO2 27
+ADC_TRIGGER_SOURCE_NCO3 28
+ADC_TRIGGER_SOURCE_CMP1 29
+ADC_TRIGGER_SOURCE_CMP2 30
+ADC_TRIGGER_SOURCE_LOGICAL_OR_OF_ALL_IOC_FLAGS 31
+ADC_TRIGGER_SOURCE_CLC1 32
+ADC_TRIGGER_SOURCE_CLC2 33
+ADC_TRIGGER_SOURCE_CLC3 34
+ADC_TRIGGER_SOURCE_CLC4 35
+ADC_TRIGGER_SOURCE_CLC5 36
+ADC_TRIGGER_SOURCE_CLC6 37
+ADC_TRIGGER_SOURCE_CLC7 38
+ADC_TRIGGER_SOURCE_CLC8 39
+ADC_TRIGGER_SOURCE_ADERRH 61
+ADC_TRIGGER_SOURCE_ADRESH 62
+ADC_TRIGGER_SOURCE_ADPCH 63
+]
+"318
+[e E17134 . `uc
+ADC_FIRST_DERIVATIVE_OF_SINGLE_MEASUREMENT 0
+ADC_ACTUAL_RESULT_VS_SETPOINT 1
+ADC_ACTUAL_RESULT_VS_FILTERED_VALUE 2
+ADC_FIRST_DERIVATIVE_OF_FILTERED_VALUE 4
+ADC_FILTERED_VALUE_VS_SETPOINT 5
+]
+"78 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[e E17117 . `uc
+I2C_ERROR_NONE 0
+I2C_ERROR_ADDR_NACK 1
+I2C_ERROR_DATA_NACK 2
+I2C_ERROR_BUS_COLLISION 3
+]
+"35 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\PCA9685/PCA9685.c
+[e E39 . `uc
+I2C_ERROR_NONE 0
+I2C_ERROR_ADDR_NACK 1
+I2C_ERROR_DATA_NACK 2
+I2C_ERROR_BUS_COLLISION 3
+]
+"41 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[e E17556 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+[e E18008 . `uc
+Celsius 0
+Kelvin 1
+Farenheit 2
+]
+"24 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.h
+[e E36 . `uc
+Home_Head_Event 0
+Flowmeter_Head_Event 1
+Servomotor_Head_Event 2
+Switch_Head_Event 3
+Temperature_Head_Event 4
+]
+"13 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.c
+[e E18161 . `uc
+Init 0
+Finish 1
+Error 2
+]
+"24 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.h
+[e E17343 . `uc
+Home_Head_Event 0
+Flowmeter_Head_Event 1
+Servomotor_Head_Event 2
+Switch_Head_Event 3
+Temperature_Head_Event 4
+]
+"24 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/Ultrasonic_At/UltrasonicAtEventHandler.h
+[e E17927 . `uc
+Home_Head_Event 0
+Flowmeter_Head_Event 1
+Servomotor_Head_Event 2
+Switch_Head_Event 3
+Temperature_Head_Event 4
+]
+"19 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/gpio_interface.h
+[e E17717 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"11 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_lm35_int.c
+[e E18011 . `uc
+Celsius 0
+Kelvin 1
+Farenheit 2
+]
+"16 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_driverFlujometro.c
+[v _Flujometro_Initialize Flujometro_Initialize `(v  1 e 1 0 ]
+"14 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_driverServomotor.c
+[v _Servomotor_Initialize Servomotor_Initialize `(v  1 e 1 0 ]
+"22 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_lm35_int.c
+[v _temperatureSensor_Initialize temperatureSensor_Initialize `(v  1 e 1 0 ]
+"43
+[v _temperatureSensor_Acquire temperatureSensor_Acquire `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"193 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"513
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"942
+[v _stoa stoa `(v  1 s 1 stoa ]
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+[v i2___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+[v i2___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+[v i2___xxtofl __xxtofl `(d  1 e 4 0 ]
+"20 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Flujometros/flujometros.h
+[s S29 flujometro 20 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Flujo 2 4 `us 1 FlujoMax 2 6 `*.38(v 1 SetFlujo 3 8 `*.38(us 1 GetFlujo 3 11 `*.38(v 1 SetFlujoMax 3 14 `*.38(us 1 GetFlujoMax 3 17 ]
+"2 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Flujometros/flujometros.c
+[v _newFlujometro newFlujometro `(*.39S29  1 e 3 0 ]
+"11
+[v _FlujometroInit FlujometroInit `(v  1 e 1 0 ]
+"17
+[v _SetFlujoMaxFlujometro SetFlujoMaxFlujometro `(v  1 e 1 0 ]
+"21
+[v _GetFlujoMaxFlujometro GetFlujoMaxFlujometro `(us  1 e 2 0 ]
+"26
+[v _SetFlujoFlujometro SetFlujoFlujometro `(v  1 e 1 0 ]
+"38
+[v _GetFlujoFlujometro GetFlujoFlujometro `(us  1 e 2 0 ]
+"18 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\LM35_TI/LM35_TI.c
+[v _LM35_SetAnalogPin LM35_SetAnalogPin `(v  1 e 1 0 ]
+"26
+[v _LM35_ReadTemperature LM35_ReadTemperature `(f  1 e 4 0 ]
+"18 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"47 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/adc/src/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"196
+[v _ADC_ChannelSelectAndConvert ADC_ChannelSelectAndConvert `(s  1 e 2 0 ]
+"408
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"422
+[v _ADC_ThresholdISR ADC_ThresholdISR `(v  1 e 1 0 ]
+"100 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"142
+[v _I2C1_Deinitialize I2C1_Deinitialize `(v  1 e 1 0 ]
+"155
+[v _I2C1_Write I2C1_Write `(a  1 e 1 0 ]
+"174
+[v _I2C1_Read I2C1_Read `(a  1 e 1 0 ]
+"193
+[v _I2C1_WriteRead I2C1_WriteRead `(a  1 e 1 0 ]
+"212
+[v _I2C1_ErrorGet I2C1_ErrorGet `(E17117  1 e 1 0 ]
+"219
+[v _I2C1_IsBusy I2C1_IsBusy `(a  1 e 1 0 ]
+"224
+[v _I2C1_CallbackRegister I2C1_CallbackRegister `(v  1 e 1 0 ]
+"232
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+"265
+[v _I2C1_ERROR_ISR I2C1_ERROR_ISR `(v  1 e 1 0 ]
+"301
+[v _I2C1_RX_ISR I2C1_RX_ISR `(v  1 e 1 0 ]
+"307
+[v _I2C1_TX_ISR I2C1_TX_ISR `(v  1 e 1 0 ]
+"315
+[v _I2C1_ReadStart I2C1_ReadStart `(v  1 s 1 I2C1_ReadStart ]
+"326
+[v _I2C1_WriteStart I2C1_WriteStart `(v  1 s 1 I2C1_WriteStart ]
+"341
+[v _I2C1_Close I2C1_Close `(v  1 s 1 I2C1_Close ]
+"355
+[v _I2C1_StartSend I2C1_StartSend `(v  1 s 1 I2C1_StartSend ]
+[v i2_I2C1_StartSend I2C1_StartSend `(v  1 s 1 i2_I2C1_StartSend ]
+"360
+[v _I2C1_AddrTransmit I2C1_AddrTransmit `(v  1 s 1 I2C1_AddrTransmit ]
+[v i2_I2C1_AddrTransmit I2C1_AddrTransmit `(v  1 s 1 i2_I2C1_AddrTransmit ]
+"365
+[v _I2C1_DataTransmit I2C1_DataTransmit `(v  1 s 1 I2C1_DataTransmit ]
+"370
+[v _I2C1_DataReceive I2C1_DataReceive `(uc  1 s 1 I2C1_DataReceive ]
+"375
+[v _I2C1_CounterSet I2C1_CounterSet `(v  1 s 1 I2C1_CounterSet ]
+[v i2_I2C1_CounterSet I2C1_CounterSet `(v  1 s 1 i2_I2C1_CounterSet ]
+"380
+[v _I2C1_CounterGet I2C1_CounterGet `(uc  1 s 1 I2C1_CounterGet ]
+"385
+[v _I2C1_BusReset I2C1_BusReset `T(v  1 s 1 I2C1_BusReset ]
+"411
+[v _I2C1_RestartEnable I2C1_RestartEnable `T(v  1 s 1 I2C1_RestartEnable ]
+"416
+[v _I2C1_RestartDisable I2C1_RestartDisable `T(v  1 s 1 I2C1_RestartDisable ]
+"421
+[v _I2C1_StopSend I2C1_StopSend `(v  1 s 1 I2C1_StopSend ]
+"431
+[v _I2C1_IsNack I2C1_IsNack `(a  1 s 1 I2C1_IsNack ]
+"436
+[v _I2C1_IsBusCol I2C1_IsBusCol `(a  1 s 1 I2C1_IsBusCol ]
+"441
+[v _I2C1_IsBusTimeOut I2C1_IsBusTimeOut `(a  1 s 1 I2C1_IsBusTimeOut ]
+"446
+[v _I2C1_IsData I2C1_IsData `(a  1 s 1 I2C1_IsData ]
+"451
+[v _I2C1_IsAddr I2C1_IsAddr `(a  1 s 1 I2C1_IsAddr ]
+"456
+[v _I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 I2C1_InterruptsEnable ]
+[v i2_I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 i2_I2C1_InterruptsEnable ]
+"469
+[v _I2C1_InterruptsDisable I2C1_InterruptsDisable `T(v  1 s 1 I2C1_InterruptsDisable ]
+"479
+[v _I2C1_InterruptsClear I2C1_InterruptsClear `T(v  1 s 1 I2C1_InterruptsClear ]
+"484
+[v _I2C1_ErrorFlagsClear I2C1_ErrorFlagsClear `T(v  1 s 1 I2C1_ErrorFlagsClear ]
+"491
+[v _I2C1_BufferClear I2C1_BufferClear `T(v  1 s 1 I2C1_BufferClear ]
+"39 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"138
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"147
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"151
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"164
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"173
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"177
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"190
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"199
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"203
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"38 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"65 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"85
+[v _TMR0_Deinitialize TMR0_Deinitialize `(v  1 e 1 0 ]
+"98
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+"103
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+"108
+[v _TMR0_CounterGet TMR0_CounterGet `(us  1 e 2 0 ]
+"121
+[v _TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+"127
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"133
+[v _TMR0_PeriodSet TMR0_PeriodSet `(v  1 e 1 0 ]
+"138
+[v _TMR0_PeriodGet TMR0_PeriodGet `(us  1 e 2 0 ]
+"143
+[v _TMR0_MaxCountGet TMR0_MaxCountGet `(us  1 e 2 0 ]
+"148
+[v _TMR0_TMRInterruptEnable TMR0_TMRInterruptEnable `(v  1 e 1 0 ]
+[v i2_TMR0_TMRInterruptEnable TMR0_TMRInterruptEnable `(v  1 e 1 0 ]
+"153
+[v _TMR0_TMRInterruptDisable TMR0_TMRInterruptDisable `(v  1 e 1 0 ]
+[v i2_TMR0_TMRInterruptDisable TMR0_TMRInterruptDisable `(v  1 e 1 0 ]
+"158
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"170
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"175
+[v _TMR0_DefaultCallback TMR0_DefaultCallback `(v  1 s 1 TMR0_DefaultCallback ]
+"128 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"189
+[v _UART1_Deinitialize UART1_Deinitialize `(v  1 e 1 0 ]
+"215
+[v _UART1_Enable UART1_Enable `(v  1 e 1 0 ]
+"225
+[v _UART1_TransmitEnable UART1_TransmitEnable `(v  1 e 1 0 ]
+"230
+[v _UART1_TransmitDisable UART1_TransmitDisable `(v  1 e 1 0 ]
+"235
+[v _UART1_ReceiveEnable UART1_ReceiveEnable `(v  1 e 1 0 ]
+"255
+[v _UART1_AutoBaudSet UART1_AutoBaudSet `(v  1 e 1 0 ]
+"268
+[v _UART1_AutoBaudQuery UART1_AutoBaudQuery `(a  1 e 1 0 ]
+"317
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+"322
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+"327
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
+"332
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+"339
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"357
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+"414
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+[v i2_UART1_Write UART1_Write `(v  1 e 1 0 ]
+"439
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+"470
+[v _putch putch `(v  1 e 1 0 ]
+"483
+[v _UART1_GeneralISR UART1_GeneralISR `(v  1 e 1 0 ]
+"493
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+"498
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+"503
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+"508
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"516
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"524
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"539
+[v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+"10 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\PCA9685/PCA9685.c
+[v _setPWMFreq setPWMFreq `(v  1 e 1 0 ]
+"75
+[v _setPWM setPWM `(v  1 e 1 0 ]
+"22 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Servo/Servomotor.h
+[s S2921 servomotor 14 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Max_Count 2 4 `us 1 Min_Count 2 6 `*.38(v 1 SetAngle 3 8 `*.38(uc 1 GetAngle 3 11 ]
+"4 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Servo/Servomotor.c
+[v _newServomotor newServomotor `(*.39S2921  1 e 3 0 ]
+"10
+[v _ServomotorInit ServomotorInit `(v  1 e 1 0 ]
+"17
+[v _SetAngleServomotor SetAngleServomotor `(v  1 e 1 0 ]
+"24 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.h
+"23 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/Sensor.h
+"19
+"58 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/uart_drv_interface.h
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"41 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+"31 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/LM35_TI/lm35_interface.h
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+"41 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v _newTempSensor newTempSensor `(*.39S3236  1 e 3 0 ]
+"70
+[v _tempSensor_Initialize tempSensor_Initialize `(v  1 s 1 tempSensor_Initialize ]
+"75
+[v _tempSensor_setID tempSensor_setID `(v  1 s 1 tempSensor_setID ]
+"80
+[v _tempSensor_getID tempSensor_getID `(*.31uc  1 s 3 tempSensor_getID ]
+"85
+[v _tempSensor_setName tempSensor_setName `(v  1 s 1 tempSensor_setName ]
+"90
+[v _tempSensor_getName tempSensor_getName `(*.31uc  1 s 3 tempSensor_getName ]
+"95
+[v _tempSensor_SetanalogPin tempSensor_SetanalogPin `(v  1 s 1 tempSensor_SetanalogPin ]
+"100
+[v _tempSensor_GetanalogPin tempSensor_GetanalogPin `(*.39E17556  1 s 3 tempSensor_GetanalogPin ]
+"130
+[v _tempSensor_Read tempSensor_Read `(*.39f  1 s 3 tempSensor_Read ]
+"165
+[v _tempSensor_DisplayRegister tempSensor_DisplayRegister `(v  1 s 1 tempSensor_DisplayRegister ]
+"173
+[v _tempSensor_DisplayValue tempSensor_DisplayValue `(v  1 s 1 tempSensor_DisplayValue ]
+"4 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAt_App.c
+[v _pumpExecute pumpExecute `(v  1 e 1 0 ]
+"18 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.c
+[v _UltrasonicAtomization_EventHandlerInitialize UltrasonicAtomization_EventHandlerInitialize `(v  1 e 1 0 ]
+"23
+[v _UltrasonicAtomization_DecodeRxFrame UltrasonicAtomization_DecodeRxFrame `(v  1 e 1 0 ]
+"81
+[v _UltrasonicAtomization_InterruptHandlerRegister UltrasonicAtomization_InterruptHandlerRegister `(v  1 e 1 0 ]
+"22 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtHAL.c
+[v _UltrasonicAtomizationHAL_Initialize UltrasonicAtomizationHAL_Initialize `(v  1 e 1 0 ]
+"26
+[v _UltrasonicAtomization_RxDecodeSerialFrame UltrasonicAtomization_RxDecodeSerialFrame `(v  1 e 1 0 ]
+"46
+[v _UltrasonicAtomization_HALCallbackRegister UltrasonicAtomization_HALCallbackRegister `(v  1 e 1 0 ]
+"19 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/gpio_interface.h
+[v _AN0 AN0 `E17717  1 e 1 0 ]
+"386 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/mcc_generated_files/uart/uart1.h
+[v _UART1_GeneralInterruptHandler UART1_GeneralInterruptHandler `*.38(v  1 e 3 0 ]
+[s S4353 . 3 `uc 1 u8component 1 0 `uc 1 u8componentID 1 1 `a 1 bevent 1 2 ]
+"19 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/Ultrasonic_At/UltrasonicAtEventHandler.h
+[v _switchEven switchEven `S4353  1 e 3 0 ]
+[s S4357 . 3 `uc 1 u8component 1 0 `uc 1 u8componentID 1 1 `uc 1 u32value 1 2 ]
+"20
+[v _ServomotorEven ServomotorEven `S4357  1 e 3 0 ]
+[s S4361 . 4 `uc 1 u8component 1 0 `uc 1 u8componentID 1 1 `us 1 u32value 2 2 ]
+"21
+[v _flowmeterEven flowmeterEven `S4361  1 e 4 0 ]
+[s S4365 . 2 `uc 1 u8component 1 0 `a 1 bevent 1 1 ]
+"22
+[v _temperatureEven temperatureEven `S4365  1 e 2 0 ]
+"24
+[v _event_UA event_UA `uc  1 e 1 0 ]
+[s S29 flujometro 20 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Flujo 2 4 `us 1 FlujoMax 2 6 `*.38(v 1 SetFlujo 3 8 `*.38(us 1 GetFlujo 3 11 `*.38(v 1 SetFlujoMax 3 14 `*.38(us 1 GetFlujoMax 3 17 ]
+"8 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_driverFlujometro.c
+[v _Flujometro_3 Flujometro_3 `S29  1 e 20 0 ]
+"9
+[v _pFlujom_3 pFlujom_3 `*.39S29  1 e 2 0 ]
+"10
+[v _Flujometro_4 Flujometro_4 `S29  1 e 20 0 ]
+"11
+[v _pFlujom_4 pFlujom_4 `*.39S29  1 e 2 0 ]
+"12
+[v _Flujometro_2 Flujometro_2 `S29  1 e 20 0 ]
+"13
+[v _pFlujom_2 pFlujom_2 `*.39S29  1 e 2 0 ]
+[s S2921 servomotor 14 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Max_Count 2 4 `us 1 Min_Count 2 6 `*.38(v 1 SetAngle 3 8 `*.38(uc 1 GetAngle 3 11 ]
+"7 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_driverServomotor.c
+[v _Servomotor_0 Servomotor_0 `S2921  1 e 14 0 ]
+"8
+[v _pServo_0 pServo_0 `*.39S2921  1 e 2 0 ]
+"9
+[v _Servomotor_1 Servomotor_1 `S2921  1 e 14 0 ]
+"10
+[v _pServo_1 pServo_1 `*.39S2921  1 e 2 0 ]
+"11
+[v _Servomotor_2 Servomotor_2 `S2921  1 e 14 0 ]
+"12
+[v _pServo_2 pServo_2 `*.39S2921  1 e 2 0 ]
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"11 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_lm35_int.c
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v _TempSensorLM35_0 TempSensorLM35_0 `S3236  1 e 134 0 ]
+"12
+[v _pTempSensorLM35_0 pTempSensorLM35_0 `*.39S3236  1 e 2 0 ]
+"13
+[v _TempSensorLM35_1 TempSensorLM35_1 `S3236  1 e 134 0 ]
+"14
+[v _pTempSensorLM35_1 pTempSensorLM35_1 `*.39S3236  1 e 2 0 ]
+"15
+[v _TempSensorLM35_2 TempSensorLM35_2 `S3236  1 e 134 0 ]
+"16
+[v _pTempSensorLM35_2 pTempSensorLM35_2 `*.39S3236  1 e 2 0 ]
+"17
+[v _TempSensorLM35_3 TempSensorLM35_3 `S3236  1 e 134 0 ]
+"18
+[v _pTempSensorLM35_3 pTempSensorLM35_3 `*.39S3236  1 e 2 0 ]
+"20
+[v _TIMER_100MS TIMER_100MS `us  1 e 2 0 ]
+"5140 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc/pic18f57q43.h
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5210
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5350
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5390
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5650
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"9148
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @522 ]
+"9204
+[v _RB2PPS RB2PPS `VEuc  1 e 1 @523 ]
+"10604
+[v _RF0PPS RF0PPS `VEuc  1 e 1 @553 ]
+"14646
+[v _I2C1SDAPPS I2C1SDAPPS `VEuc  1 e 1 @624 ]
+"14712
+[v _I2C1SCLPPS I2C1SCLPPS `VEuc  1 e 1 @625 ]
+"14778
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+"15474
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"15606
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"15738
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"15870
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"16002
+[v _I2C1RXB I2C1RXB `VEuc  1 e 1 @651 ]
+"16022
+[v _I2C1TXB I2C1TXB `VEuc  1 e 1 @652 ]
+"16042
+[v _I2C1CNT I2C1CNT `VEuc  1 e 1 @653 ]
+"16132
+[v _I2C1ADB1 I2C1ADB1 `VEuc  1 e 1 @655 ]
+"16234
+[v _I2C1CON0 I2C1CON0 `VEuc  1 e 1 @660 ]
+[s S1034 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 MDR 1 0 :1:3 
+`uc 1 CSTR 1 0 :1:4 
+`uc 1 S 1 0 :1:5 
+`uc 1 RSEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"16256
+[s S1041 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 I2CEN 1 0 :1:7 
+]
+[u S1047 . 1 `S1034 1 . 1 0 `S1041 1 . 1 0 ]
+[v _I2C1CON0bits I2C1CON0bits `VES1047  1 e 1 @660 ]
+"16311
+[v _I2C1CON1 I2C1CON1 `VEuc  1 e 1 @661 ]
+[s S1295 . 1 `uc 1 CSD 1 0 :1:0 
+`uc 1 TXU 1 0 :1:1 
+`uc 1 RXO 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ACKT 1 0 :1:4 
+`uc 1 ACKSTAT 1 0 :1:5 
+`uc 1 ACKDT 1 0 :1:6 
+`uc 1 ACKCNT 1 0 :1:7 
+]
+"16328
+[u S1304 . 1 `S1295 1 . 1 0 ]
+[v _I2C1CON1bits I2C1CON1bits `VES1304  1 e 1 @661 ]
+"16368
+[v _I2C1CON2 I2C1CON2 `VEuc  1 e 1 @662 ]
+"16444
+[v _I2C1ERR I2C1ERR `VEuc  1 e 1 @663 ]
+[s S1192 . 1 `uc 1 NACKIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 BTOIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACKIF 1 0 :1:4 
+`uc 1 BCLIF 1 0 :1:5 
+`uc 1 BTOIF 1 0 :1:6 
+]
+"16469
+[s S1200 . 1 `uc 1 NACK1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 BTO1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACK1IF 1 0 :1:4 
+`uc 1 BCL1IF 1 0 :1:5 
+`uc 1 BTO1IF 1 0 :1:6 
+]
+[u S1208 . 1 `S1192 1 . 1 0 `S1200 1 . 1 0 ]
+[v _I2C1ERRbits I2C1ERRbits `VES1208  1 e 1 @663 ]
+[s S1128 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 D 1 0 :1:3 
+`uc 1 R 1 0 :1:4 
+`uc 1 MMA 1 0 :1:5 
+`uc 1 SMA 1 0 :1:6 
+`uc 1 BFRE 1 0 :1:7 
+]
+"16564
+[s S1135 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 DATA 1 0 :1:3 
+`uc 1 READ 1 0 :1:4 
+]
+[s S1139 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_ADDRESS 1 0 :1:3 
+`uc 1 NOT_WRITE 1 0 :1:4 
+]
+[s S1143 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_A 1 0 :1:3 
+`uc 1 NOT_W 1 0 :1:4 
+]
+[u S1147 . 1 `S1128 1 . 1 0 `S1135 1 . 1 0 `S1139 1 . 1 0 `S1143 1 . 1 0 ]
+[v _I2C1STAT0bits I2C1STAT0bits `VES1147  1 e 1 @664 ]
+"16624
+[v _I2C1STAT1 I2C1STAT1 `VEuc  1 e 1 @665 ]
+[s S1338 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"16641
+[u S1347 . 1 `S1338 1 . 1 0 ]
+[v _I2C1STAT1bits I2C1STAT1bits `VES1347  1 e 1 @665 ]
+"16671
+[v _I2C1PIR I2C1PIR `VEuc  1 e 1 @666 ]
+[s S1074 . 1 `uc 1 SCIF 1 0 :1:0 
+`uc 1 RSCIF 1 0 :1:1 
+`uc 1 PCIF 1 0 :1:2 
+`uc 1 ADRIF 1 0 :1:3 
+`uc 1 WRIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIF 1 0 :1:6 
+`uc 1 CNTIF 1 0 :1:7 
+]
+"16698
+[s S1083 . 1 `uc 1 SC1IF 1 0 :1:0 
+`uc 1 RSC1IF 1 0 :1:1 
+`uc 1 PC1IF 1 0 :1:2 
+`uc 1 ADR1IF 1 0 :1:3 
+`uc 1 WR1IF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IF 1 0 :1:6 
+`uc 1 CNT1IF 1 0 :1:7 
+]
+[u S1092 . 1 `S1074 1 . 1 0 `S1083 1 . 1 0 ]
+[v _I2C1PIRbits I2C1PIRbits `VES1092  1 e 1 @666 ]
+"16773
+[v _I2C1PIE I2C1PIE `VEuc  1 e 1 @667 ]
+[s S994 . 1 `uc 1 SCIE 1 0 :1:0 
+`uc 1 RSCIE 1 0 :1:1 
+`uc 1 PCIE 1 0 :1:2 
+`uc 1 ADRIE 1 0 :1:3 
+`uc 1 WRIE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIE 1 0 :1:6 
+`uc 1 CNTIE 1 0 :1:7 
+]
+"16800
+[s S1003 . 1 `uc 1 SC1IE 1 0 :1:0 
+`uc 1 RSC1IE 1 0 :1:1 
+`uc 1 PC1IE 1 0 :1:2 
+`uc 1 ADR1IE 1 0 :1:3 
+`uc 1 WR1IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IE 1 0 :1:6 
+`uc 1 CNT1IE 1 0 :1:7 
+]
+[u S1012 . 1 `S994 1 . 1 0 `S1003 1 . 1 0 ]
+[v _I2C1PIEbits I2C1PIEbits `VES1012  1 e 1 @667 ]
+"16875
+[v _I2C1CLK I2C1CLK `VEuc  1 e 1 @668 ]
+"17047
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"17085
+[v _U1RXCHK U1RXCHK `VEuc  1 e 1 @674 ]
+"17105
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"17143
+[v _U1TXCHK U1TXCHK `VEuc  1 e 1 @676 ]
+"17170
+[v _U1P1L U1P1L `VEuc  1 e 1 @677 ]
+"17190
+[v _U1P1H U1P1H `VEuc  1 e 1 @678 ]
+"17217
+[v _U1P2L U1P2L `VEuc  1 e 1 @679 ]
+"17237
+[v _U1P2H U1P2H `VEuc  1 e 1 @680 ]
+"17264
+[v _U1P3L U1P3L `VEuc  1 e 1 @681 ]
+"17284
+[v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
+"17304
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S2526 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"17337
+[s S2531 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S2537 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S2542 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S2548 . 1 `S2526 1 . 1 0 `S2531 1 . 1 0 `S2537 1 . 1 0 `S2542 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES2548  1 e 1 @683 ]
+"17432
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+[s S2490 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"17457
+[s S2498 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S2506 . 1 `S2490 1 . 1 0 `S2498 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES2506  1 e 1 @684 ]
+"17512
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"17661
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"17681
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+"17701
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
+"17831
+[v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
+[s S2576 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"17852
+[s S2582 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U1ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U1ABDIF 1 0 :1:6 
+`uc 1 U1WUIF 1 0 :1:7 
+]
+[u S2588 . 1 `S2576 1 . 1 0 `S2582 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES2588  1 e 1 @689 ]
+"17887
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
+[s S2604 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"17914
+[s S2613 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S2622 . 1 `S2604 1 . 1 0 `S2613 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES2622  1 e 1 @690 ]
+"17999
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
+"23298
+[v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
+"23436
+[v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
+"23690
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
+[s S2131 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"23724
+[s S2137 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S2143 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[s S2149 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S2154 . 1 `S2131 1 . 1 0 `S2137 1 . 1 0 `S2143 1 . 1 0 `S2149 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES2154  1 e 1 @794 ]
+"23814
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+"35996
+[v _ADCP ADCP `VEuc  1 e 1 @984 ]
+[s S674 . 1 `uc 1 CPRDY 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 ON 1 0 :1:7 
+]
+"36061
+[s S678 . 1 `uc 1 ADCPRDY 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 CPON 1 0 :1:7 
+]
+"36061
+[s S682 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCPON 1 0 :1:7 
+]
+"36061
+[u S685 . 1 `S674 1 . 1 0 `S678 1 . 1 0 `S682 1 . 1 0 ]
+"36061
+"36061
+[v _ADCPbits ADCPbits `VES685  1 e 1 @984 ]
+"36098
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
+"36226
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
+"36361
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
+"36489
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
+"36624
+[v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
+"36752
+[v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
+"36887
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
+"37015
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
+"37150
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
+"37278
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
+"37415
+[v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
+"37543
+[v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
+"37671
+[v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
+"37799
+[v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
+"37927
+[v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
+"38062
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
+"38190
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
+"38325
+[v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
+"38453
+[v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
+"38573
+[v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
+"38638
+[v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
+"38766
+[v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
+"38858
+[v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
+"38917
+[v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
+"39045
+[v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
+"39137
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
+[s S231 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"39175
+[s S239 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"39175
+[s S247 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+"39175
+[s S251 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+"39175
+[s S253 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+"39175
+[u S257 . 1 `S231 1 . 1 0 `S239 1 . 1 0 `S247 1 . 1 0 `S251 1 . 1 0 `S253 1 . 1 0 ]
+"39175
+"39175
+[v _ADCON0bits ADCON0bits `VES257  1 e 1 @1011 ]
+"39255
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
+[s S594 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"39276
+[s S600 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"39276
+[u S606 . 1 `S594 1 . 1 0 `S600 1 . 1 0 ]
+"39276
+"39276
+[v _ADCON1bits ADCON1bits `VES606  1 e 1 @1012 ]
+"39321
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
+[s S406 . 1 `uc 1 MD 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"39358
+[s S411 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"39358
+[s S420 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+"39358
+[s S424 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+"39358
+[u S432 . 1 `S406 1 . 1 0 `S411 1 . 1 0 `S420 1 . 1 0 `S424 1 . 1 0 ]
+"39358
+"39358
+[v _ADCON2bits ADCON2bits `VES432  1 e 1 @1013 ]
+"39463
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
+[s S473 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"39498
+[s S477 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"39498
+[s S485 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"39498
+[s S489 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+"39498
+[u S497 . 1 `S473 1 . 1 0 `S477 1 . 1 0 `S485 1 . 1 0 `S489 1 . 1 0 ]
+"39498
+"39498
+[v _ADCON3bits ADCON3bits `VES497  1 e 1 @1014 ]
+"39593
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
+[s S530 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 AOV 1 0 :1:7 
+]
+"39630
+[s S537 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"39630
+[s S546 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+"39630
+[s S550 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 OV 1 0 :1:7 
+]
+"39630
+[u S556 . 1 `S530 1 . 1 0 `S537 1 . 1 0 `S546 1 . 1 0 `S550 1 . 1 0 ]
+"39630
+"39630
+[v _ADSTATbits ADSTATbits `VES556  1 e 1 @1015 ]
+"39725
+[v _ADREF ADREF `VEuc  1 e 1 @1016 ]
+"39807
+[v _ADACT ADACT `VEuc  1 e 1 @1017 ]
+"39911
+[v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
+"40015
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"40077
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"40139
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"40201
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"40263
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"40325
+[v _IOCAP IOCAP `VEuc  1 e 1 @1029 ]
+"40387
+[v _IOCAN IOCAN `VEuc  1 e 1 @1030 ]
+"40449
+[v _IOCAF IOCAF `VEuc  1 e 1 @1031 ]
+"40511
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"40573
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"40635
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"40697
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"40759
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"40821
+[v _IOCBP IOCBP `VEuc  1 e 1 @1037 ]
+"40883
+[v _IOCBN IOCBN `VEuc  1 e 1 @1038 ]
+"40945
+[v _IOCBF IOCBF `VEuc  1 e 1 @1039 ]
+"41007
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"41069
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"41131
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"41193
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"41255
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"41317
+[v _IOCCP IOCCP `VEuc  1 e 1 @1045 ]
+"41379
+[v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
+"41441
+[v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
+"41503
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"41565
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"41627
+[v _ODCOND ODCOND `VEuc  1 e 1 @1050 ]
+"41689
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @1051 ]
+"41751
+[v _INLVLD INLVLD `VEuc  1 e 1 @1052 ]
+"41813
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"41845
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"41883
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"41915
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @1059 ]
+"41947
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"41985
+[v _IOCEP IOCEP `VEuc  1 e 1 @1061 ]
+"42006
+[v _IOCEN IOCEN `VEuc  1 e 1 @1062 ]
+"42027
+[v _IOCEF IOCEF `VEuc  1 e 1 @1063 ]
+"42048
+[v _ANSELF ANSELF `VEuc  1 e 1 @1064 ]
+"42110
+[v _WPUF WPUF `VEuc  1 e 1 @1065 ]
+"42172
+[v _ODCONF ODCONF `VEuc  1 e 1 @1066 ]
+"42234
+[v _SLRCONF SLRCONF `VEuc  1 e 1 @1067 ]
+"42296
+[v _INLVLF INLVLF `VEuc  1 e 1 @1068 ]
+[s S335 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ACTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"47182
+[u S344 . 1 `S335 1 . 1 0 ]
+"47182
+"47182
+[v _PIE1bits PIE1bits `VES344  1 e 1 @1183 ]
+[s S373 . 1 `uc 1 ADTIE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIE 1 0 :1:4 
+`uc 1 DMA1DCNTIE 1 0 :1:5 
+`uc 1 DMA1ORIE 1 0 :1:6 
+`uc 1 DMA1AIE 1 0 :1:7 
+]
+"47242
+[u S380 . 1 `S373 1 . 1 0 ]
+"47242
+"47242
+[v _PIE2bits PIE2bits `VES380  1 e 1 @1184 ]
+[s S1665 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"47289
+[u S1674 . 1 `S1665 1 . 1 0 ]
+"47289
+"47289
+[v _PIE3bits PIE3bits `VES1674  1 e 1 @1185 ]
+[s S1745 . 1 `uc 1 U1RXIE 1 0 :1:0 
+`uc 1 U1TXIE 1 0 :1:1 
+`uc 1 U1EIE 1 0 :1:2 
+`uc 1 U1IE 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 PWM1PIE 1 0 :1:6 
+`uc 1 PWM1IE 1 0 :1:7 
+]
+"47350
+[u S1753 . 1 `S1745 1 . 1 0 ]
+"47350
+"47350
+[v _PIE4bits PIE4bits `VES1753  1 e 1 @1186 ]
+[s S1316 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
+`uc 1 I2C1TXIE 1 0 :1:1 
+`uc 1 I2C1IE 1 0 :1:2 
+`uc 1 I2C1EIE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IE 1 0 :1:5 
+`uc 1 PWM3PIE 1 0 :1:6 
+`uc 1 PWM3IE 1 0 :1:7 
+]
+"47521
+[u S1325 . 1 `S1316 1 . 1 0 ]
+"47521
+"47521
+[v _PIE7bits PIE7bits `VES1325  1 e 1 @1189 ]
+[s S314 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ACTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"48056
+[u S323 . 1 `S314 1 . 1 0 ]
+"48056
+"48056
+[v _PIR1bits PIR1bits `VES323  1 e 1 @1199 ]
+[s S356 . 1 `uc 1 ADTIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIF 1 0 :1:4 
+`uc 1 DMA1DCNTIF 1 0 :1:5 
+`uc 1 DMA1ORIF 1 0 :1:6 
+`uc 1 DMA1AIF 1 0 :1:7 
+]
+"48116
+[u S363 . 1 `S356 1 . 1 0 ]
+"48116
+"48116
+[v _PIR2bits PIR2bits `VES363  1 e 1 @1200 ]
+[s S1686 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"48163
+[u S1695 . 1 `S1686 1 . 1 0 ]
+"48163
+"48163
+[v _PIR3bits PIR3bits `VES1695  1 e 1 @1201 ]
+[s S1764 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"48224
+[u S1772 . 1 `S1764 1 . 1 0 ]
+"48224
+"48224
+[v _PIR4bits PIR4bits `VES1772  1 e 1 @1202 ]
+[s S1566 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 CLC2IF 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"48333
+[u S1575 . 1 `S1566 1 . 1 0 ]
+"48333
+"48333
+[v _PIR6bits PIR6bits `VES1575  1 e 1 @1204 ]
+[s S1640 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
+`uc 1 I2C1TXIF 1 0 :1:1 
+`uc 1 I2C1IF 1 0 :1:2 
+`uc 1 I2C1EIF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IF 1 0 :1:5 
+`uc 1 PWM3PIF 1 0 :1:6 
+`uc 1 PWM3IF 1 0 :1:7 
+]
+"48395
+[u S1649 . 1 `S1640 1 . 1 0 ]
+"48395
+"48395
+[v _PIR7bits PIR7bits `VES1649  1 e 1 @1205 ]
+[s S1597 . 1 `uc 1 INT2IF 1 0 :1:0 
+`uc 1 CLC5IF 1 0 :1:1 
+`uc 1 CWG2IF 1 0 :1:2 
+`uc 1 NCO2IF 1 0 :1:3 
+`uc 1 DMA3SCNTIF 1 0 :1:4 
+`uc 1 DMA3DCNTIF 1 0 :1:5 
+`uc 1 DMA3ORIF 1 0 :1:6 
+`uc 1 DMA3AIF 1 0 :1:7 
+]
+"48559
+[u S1606 . 1 `S1597 1 . 1 0 ]
+"48559
+"48559
+[v _PIR10bits PIR10bits `VES1606  1 e 1 @1208 ]
+"48861
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"48923
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"48985
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+[s S4599 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"49002
+[u S4608 . 1 `S4599 1 . 1 0 ]
+"49002
+"49002
+[v _LATCbits LATCbits `VES4608  1 e 1 @1216 ]
+"49047
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"49109
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"49141
+[v _LATF LATF `VEuc  1 e 1 @1219 ]
+"49203
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"49265
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"49327
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+[s S4772 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"49344
+[u S4781 . 1 `S4772 1 . 1 0 ]
+"49344
+"49344
+[v _TRISCbits TRISCbits `VES4781  1 e 1 @1224 ]
+"49389
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"49451
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"49483
+[v _TRISF TRISF `VEuc  1 e 1 @1227 ]
+[s S1518 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"49913
+[s S1526 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"49913
+[u S1529 . 1 `S1518 1 . 1 0 `S1526 1 . 1 0 ]
+"49913
+"49913
+[v _INTCON0bits INTCON0bits `VES1529  1 e 1 @1238 ]
+"153 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"12 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\LM35_TI/LM35_TI.c
+[v _analogPinLM35 analogPinLM35 `*.39E377  1 e 2 0 ]
+"43 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/adc/src/adc.c
+[v _ADC_ConversionDoneCallback ADC_ConversionDoneCallback `*.38(v  1 s 3 ADC_ConversionDoneCallback ]
+"44
+[v _ADC_ThresholdCallback ADC_ThresholdCallback `*.38(v  1 s 3 ADC_ThresholdCallback ]
+"45
+[v _adc_busy_status adc_busy_status `a  1 s 1 adc_busy_status ]
+[s S882 . 30 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(a 1 Write 3 6 `*.38(a 1 Read 3 9 `*.38(a 1 WriteRead 3 12 `*.38(a 1 TransferSetup 3 15 `*.38(E17117 1 ErrorGet 3 18 `*.38(a 1 IsBusy 3 21 `*.38(v 1 CallbackRegister 3 24 `*.38(v 1 Tasks 3 27 ]
+"78 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Host I2C1_Host `CS882  1 e 30 0 ]
+"94
+[v _I2C1_Callback I2C1_Callback `*.38(v  1 s 3 I2C1_Callback ]
+[s S970 . 13 `a 1 busy 1 0 `us 1 address 2 1 `*.39uc 1 writePtr 2 3 `ui 1 writeLength 2 5 `*.39uc 1 readPtr 2 7 `ui 1 readLength 2 9 `a 1 switchToRead 1 11 `E17117 1 errorState 1 12 ]
+"95
+[v _i2c1Status i2c1Status `VES970  1 e 13 0 ]
+"38 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"40 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v _tmr0PeriodCount tmr0PeriodCount `VEus  1 s 2 tmr0PeriodCount ]
+"41
+[v _TMR0_OverflowCallback TMR0_OverflowCallback `*.38(v  1 s 3 TMR0_OverflowCallback ]
+[s S2018 . 42 `*.38(v 1 Initialze 3 0 `*.38(v 1 Deinitilize 3 3 `*.38(v 1 Start 3 6 `*.38(v 1 Stop 3 9 `*.38(us 1 CounterGet 3 12 `*.38(v 1 CounterSet 3 15 `*.38(v 1 Reload 3 18 `*.38(v 1 PeriodSet 3 21 `*.38(us 1 PeriodGet 3 24 `*.38(us 1 MaxCountGet 3 27 `*.38(v 1 InterruptEnable 3 30 `*.38(v 1 InterruptDisable 3 33 `*.38(v 1 ISR 3 36 `*.38(v 1 OverflowCallBackRegister 3 39 ]
+"48
+[v _tmr0 tmr0 `S2018  1 e 42 0 ]
+"52 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _uart1TxHead uart1TxHead `VEuc  1 s 1 uart1TxHead ]
+"53
+[v _uart1TxTail uart1TxTail `VEuc  1 s 1 uart1TxTail ]
+"54
+[v _uart1TxBufferRemaining uart1TxBufferRemaining `VEuc  1 s 1 uart1TxBufferRemaining ]
+"55
+[v _uart1TxBuffer uart1TxBuffer `VE[16]uc  1 s 16 uart1TxBuffer ]
+"57
+[v _uart1RxHead uart1RxHead `VEuc  1 s 1 uart1RxHead ]
+"58
+[v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
+"59
+[v _uart1RxCount uart1RxCount `VEuc  1 s 1 uart1RxCount ]
+"60
+[v _uart1RxBuffer uart1RxBuffer `VE[16]uc  1 s 16 uart1RxBuffer ]
+[s S2232 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"66
+[u S2237 . 2 `S2232 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[16]S2237  1 s 32 uart1RxStatusBuffer ]
+"73
+[v _uart1RxLastError uart1RxLastError `VES2237  1 s 2 uart1RxLastError ]
+"79
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.38(v  1 s 3 UART1_FramingErrorHandler ]
+"80
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.38(v  1 s 3 UART1_OverrunErrorHandler ]
+"81
+[v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.38(v  1 s 3 UART1_ParityErrorHandler ]
+"82
+[v _UART1_TxInterruptHandler UART1_TxInterruptHandler `*.38(v  1 e 3 0 ]
+"84
+[v _UART1_TxCompleteInterruptHandler UART1_TxCompleteInterruptHandler `*.38(v  1 s 3 UART1_TxCompleteInterruptHandler ]
+"85
+[v _UART1_RxInterruptHandler UART1_RxInterruptHandler `*.38(v  1 e 3 0 ]
+"86
+[v _UART1_RxCompleteInterruptHandler UART1_RxCompleteInterruptHandler `*.38(v  1 s 3 UART1_RxCompleteInterruptHandler ]
+"88
+[v _UART1_GeneralErrorInterruptHandler UART1_GeneralErrorInterruptHandler `*.38(v  1 s 3 UART1_GeneralErrorInterruptHandler ]
+"101
+[v _UART1 UART1 `CS2283  1 e 72 0 ]
+[s S93 . 6 `*.38(v 1 SetFrecuency 3 0 `*.38(v 1 SetDutyCycle 3 3 ]
+"4 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\PCA9685/PCA9685.c
+[v _PCA9685 PCA9685 `CS93  1 e 6 0 ]
+"13 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.c
+[v _uaEvent uaEvent `E18161  1 e 1 0 ]
+"15
+[v _UltrasonicAtomization_InterruptHandler UltrasonicAtomization_InterruptHandler `*.38(v  1 e 3 0 ]
+"8 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtHAL.c
+[v _uaRxBuffer uaRxBuffer `[16]uc  1 e 16 0 ]
+"9
+[v _Counter Counter `uc  1 e 1 0 ]
+"11
+[v _pfDecodeUAFrameSerial pfDecodeUAFrameSerial `*.38(v  1 e 3 0 ]
+[s S4446 . 18 `*.38(v 1 Init 3 0 `*.38(v 1 uaByteWrite 3 3 `*.38(uc 1 uaByteRead 3 6 `*.38(a 1 IsTxDone 3 9 `*.38(a 1 IsRxDone 3 12 `*.38(v 1 appUAUserCallbackRegister 3 15 ]
+"13
+[v _ultraAtom ultraAtom `S4446  1 e 18 0 ]
+"18 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"115
+} 0
+"22 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_lm35_int.c
+[v _temperatureSensor_Initialize temperatureSensor_Initialize `(v  1 e 1 0 ]
+{
+"41
+} 0
+"95 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[v _tempSensor_SetanalogPin tempSensor_SetanalogPin `(v  1 s 1 tempSensor_SetanalogPin ]
+{
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"96
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v tempSensor_SetanalogPin@ptempSensor ptempSensor `*.39S3236  1 a 2 27 ]
+"95
+[v tempSensor_SetanalogPin@pSensor pSensor `*.39v  1 p 2 23 ]
+[v tempSensor_SetanalogPin@analogPin analogPin `*.39E17556  1 p 2 25 ]
+"98
+} 0
+"70
+[v _tempSensor_Initialize tempSensor_Initialize `(v  1 s 1 tempSensor_Initialize ]
+{
+[v tempSensor_Initialize@pSensor pSensor `*.39v  1 p 2 29 ]
+[v tempSensor_Initialize@ID ID `*.39uc  1 p 2 31 ]
+[v tempSensor_Initialize@Name Name `*.31uc  1 p 1 33 ]
+"73
+} 0
+"85
+[v _tempSensor_setName tempSensor_setName `(v  1 s 1 tempSensor_setName ]
+{
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"86
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v tempSensor_setName@ptempSensor ptempSensor `*.39S3236  1 a 2 26 ]
+"85
+[v tempSensor_setName@pSensor pSensor `*.39v  1 p 2 23 ]
+[v tempSensor_setName@Name Name `*.31uc  1 p 1 25 ]
+"88
+} 0
+"75
+[v _tempSensor_setID tempSensor_setID `(v  1 s 1 tempSensor_setID ]
+{
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"76
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v tempSensor_setID@ptempSensor ptempSensor `*.39S3236  1 a 2 27 ]
+"75
+[v tempSensor_setID@pSensor pSensor `*.39v  1 p 2 23 ]
+[v tempSensor_setID@ID ID `*.39uc  1 p 2 25 ]
+"78
+} 0
+"24 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.h
+"23 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/Sensor.h
+"19
+"58 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/uart_drv_interface.h
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"41 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+"31 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X/LM35_TI/lm35_interface.h
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+"41 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v _newTempSensor newTempSensor `(*.39S3236  1 e 3 0 ]
+{
+[v newTempSensor@pSensor pSensor `*.39S3236  1 p 2 23 ]
+"68
+} 0
+"138 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_PeriodGet TMR0_PeriodGet `(us  1 e 2 0 ]
+{
+"141
+} 0
+"10 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\PCA9685/PCA9685.c
+[v _setPWMFreq setPWMFreq `(v  1 e 1 0 ]
+{
+"20
+[v setPWMFreq@prescaleval prescaleval `f  1 a 4 9 ]
+"40
+[v setPWMFreq@data data `[2]uc  1 a 2 14 ]
+"32
+[v setPWMFreq@reg reg `uc  1 a 1 16 ]
+"31
+[v setPWMFreq@oldmode oldmode `uc  1 a 1 13 ]
+"39
+[v setPWMFreq@newmode newmode `uc  1 a 1 8 ]
+"30
+[v setPWMFreq@prescale prescale `uc  1 a 1 7 ]
+"10
+[v setPWMFreq@freq freq `f  1 p 4 2 ]
+"73
+} 0
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 23 ]
+[v ___flge@ff2 ff2 `d  1 p 4 27 ]
+"19
+} 0
+"193 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_WriteRead I2C1_WriteRead `(a  1 e 1 0 ]
+{
+[v I2C1_WriteRead@address address `us  1 p 2 24 ]
+[v I2C1_WriteRead@writeData writeData `*.39uc  1 p 2 26 ]
+[v I2C1_WriteRead@writeLength writeLength `ui  1 p 2 28 ]
+[v I2C1_WriteRead@readData readData `*.39uc  1 p 2 30 ]
+[v I2C1_WriteRead@readLength readLength `ui  1 p 2 32 ]
+"210
+} 0
+"81 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.c
+[v _UltrasonicAtomization_InterruptHandlerRegister UltrasonicAtomization_InterruptHandlerRegister `(v  1 e 1 0 ]
+{
+[v UltrasonicAtomization_InterruptHandlerRegister@InterruptHandler InterruptHandler `*.38(v  1 p 3 23 ]
+"85
+} 0
+"18
+[v _UltrasonicAtomization_EventHandlerInitialize UltrasonicAtomization_EventHandlerInitialize `(v  1 e 1 0 ]
+{
+"21
+} 0
+"46 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtHAL.c
+[v _UltrasonicAtomization_HALCallbackRegister UltrasonicAtomization_HALCallbackRegister `(v  1 e 1 0 ]
+{
+[v UltrasonicAtomization_HALCallbackRegister@Callback Callback `*.38(v  1 p 3 23 ]
+"50
+} 0
+"22
+[v _UltrasonicAtomizationHAL_Initialize UltrasonicAtomizationHAL_Initialize `(v  1 e 1 0 ]
+{
+"24
+} 0
+"539 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_RxCompleteCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 23 ]
+"545
+} 0
+"225
+[v _UART1_TransmitEnable UART1_TransmitEnable `(v  1 e 1 0 ]
+{
+"228
+} 0
+"414
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+[v UART1_Write@txData txData `uc  1 p 1 wreg ]
+"416
+[v UART1_Write@tempTxHead tempTxHead `uc  1 a 1 23 ]
+"414
+[v UART1_Write@txData txData `uc  1 p 1 wreg ]
+"418
+[v UART1_Write@txData txData `uc  1 p 1 24 ]
+"436
+} 0
+"235
+[v _UART1_ReceiveEnable UART1_ReceiveEnable `(v  1 e 1 0 ]
+{
+"238
+} 0
+"215
+[v _UART1_Enable UART1_Enable `(v  1 e 1 0 ]
+{
+"218
+} 0
+"148 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_TMRInterruptEnable TMR0_TMRInterruptEnable `(v  1 e 1 0 ]
+{
+"151
+} 0
+"153
+[v _TMR0_TMRInterruptDisable TMR0_TMRInterruptDisable `(v  1 e 1 0 ]
+{
+"156
+} 0
+"98
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+{
+"101
+} 0
+"170
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR0_OverflowCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 23 ]
+"173
+} 0
+"14 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_driverServomotor.c
+[v _Servomotor_Initialize Servomotor_Initialize `(v  1 e 1 0 ]
+{
+"24
+} 0
+"22 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Servo/Servomotor.h
+[s S2921 servomotor 14 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Max_Count 2 4 `us 1 Min_Count 2 6 `*.38(v 1 SetAngle 3 8 `*.38(uc 1 GetAngle 3 11 ]
+"4 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Servo/Servomotor.c
+[v _newServomotor newServomotor `(*.39S2921  1 e 3 0 ]
+{
+[v newServomotor@pServo pServo `*.39S2921  1 p 2 23 ]
+"8
+} 0
+"17
+[v _SetAngleServomotor SetAngleServomotor `(v  1 e 1 0 ]
+{
+"21
+[v SetAngleServomotor@angle_float angle_float `f  1 a 4 0 ]
+[s S2921 servomotor 14 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Max_Count 2 4 `us 1 Min_Count 2 6 `*.38(v 1 SetAngle 3 8 `*.38(uc 1 GetAngle 3 11 ]
+"19
+[v SetAngleServomotor@pServomotor pServomotor `*.39S2921  1 a 2 10 ]
+"20
+[v SetAngleServomotor@low_time low_time `us  1 a 2 8 ]
+[v SetAngleServomotor@Min_Count Min_Count `us  1 a 2 6 ]
+[v SetAngleServomotor@Max_Count Max_Count `us  1 a 2 4 ]
+"17
+[v SetAngleServomotor@pServo pServo `*.39v  1 p 2 2 ]
+[v SetAngleServomotor@Angle Angle `uc  1 p 1 4 ]
+"31
+} 0
+"10
+[v _ServomotorInit ServomotorInit `(v  1 e 1 0 ]
+{
+[s S2921 servomotor 14 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Max_Count 2 4 `us 1 Min_Count 2 6 `*.38(v 1 SetAngle 3 8 `*.38(uc 1 GetAngle 3 11 ]
+"11
+[v ServomotorInit@pServomotor pServomotor `*.39S2921  1 a 2 30 ]
+"10
+[v ServomotorInit@pServo pServo `*.39v  1 p 2 23 ]
+[v ServomotorInit@Pin Pin `uc  1 p 1 25 ]
+[v ServomotorInit@Min_Count Min_Count `us  1 p 2 26 ]
+[v ServomotorInit@Max_Count Max_Count `us  1 p 2 28 ]
+"15
+} 0
+"38 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"128 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"187
+} 0
+"524
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 23 ]
+"530
+} 0
+"516
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 23 ]
+"522
+} 0
+"508
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 23 ]
+"514
+} 0
+"65 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"38 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"144
+} 0
+"42 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"199
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 23 ]
+"201
+} 0
+"173
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 23 ]
+"175
+} 0
+"147
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 23 ]
+"149
+} 0
+"100 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"140
+} 0
+"456
+[v _I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 I2C1_InterruptsEnable ]
+{
+"467
+} 0
+"39 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"47 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/adc/src/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"16 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_driverFlujometro.c
+[v _Flujometro_Initialize Flujometro_Initialize `(v  1 e 1 0 ]
+{
+"26
+} 0
+"20 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Flujometros/flujometros.h
+[s S29 flujometro 20 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Flujo 2 4 `us 1 FlujoMax 2 6 `*.38(v 1 SetFlujo 3 8 `*.38(us 1 GetFlujo 3 11 `*.38(v 1 SetFlujoMax 3 14 `*.38(us 1 GetFlujoMax 3 17 ]
+"2 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Flujometros/flujometros.c
+[v _newFlujometro newFlujometro `(*.39S29  1 e 3 0 ]
+{
+[v newFlujometro@pFlujometro pFlujometro `*.39S29  1 p 2 23 ]
+"9
+} 0
+"26
+[v _SetFlujoFlujometro SetFlujoFlujometro `(v  1 e 1 0 ]
+{
+"28
+[v SetFlujoFlujometro@flujoMax flujoMax `f  1 a 4 8 ]
+[s S29 flujometro 20 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Flujo 2 4 `us 1 FlujoMax 2 6 `*.38(v 1 SetFlujo 3 8 `*.38(us 1 GetFlujo 3 11 `*.38(v 1 SetFlujoMax 3 14 `*.38(us 1 GetFlujoMax 3 17 ]
+"29
+[v SetFlujoFlujometro@pFlujometro pFlujometro `*.39S29  1 a 2 14 ]
+"27
+[v SetFlujoFlujometro@low_time low_time `us  1 a 2 12 ]
+"26
+[v SetFlujoFlujometro@pFlujom pFlujom `*.39v  1 p 2 2 ]
+[v SetFlujoFlujometro@Flujo Flujo `us  1 p 2 4 ]
+"36
+} 0
+"75 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\PCA9685/PCA9685.c
+[v _setPWM setPWM `(v  1 e 1 0 ]
+{
+[v setPWM@num num `uc  1 p 1 wreg ]
+"76
+[v setPWM@buffer buffer `[5]uc  1 a 5 36 ]
+"77
+[v setPWM@addres addres `uc  1 a 1 41 ]
+"75
+[v setPWM@num num `uc  1 p 1 wreg ]
+[v setPWM@on on `us  1 p 2 31 ]
+[v setPWM@off off `us  1 p 2 33 ]
+"81
+[v setPWM@num num `uc  1 p 1 35 ]
+"94
+} 0
+"155 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Write I2C1_Write `(a  1 e 1 0 ]
+{
+"157
+[v I2C1_Write@retStatus retStatus `a  1 a 1 30 ]
+"155
+[v I2C1_Write@address address `us  1 p 2 24 ]
+[v I2C1_Write@data data `*.39uc  1 p 2 26 ]
+[v I2C1_Write@dataLength dataLength `ui  1 p 2 28 ]
+"172
+} 0
+"326
+[v _I2C1_WriteStart I2C1_WriteStart `(v  1 s 1 I2C1_WriteStart ]
+{
+"339
+} 0
+"355
+[v _I2C1_StartSend I2C1_StartSend `(v  1 s 1 I2C1_StartSend ]
+{
+"358
+} 0
+"411
+[v _I2C1_RestartEnable I2C1_RestartEnable `T(v  1 s 1 I2C1_RestartEnable ]
+{
+"414
+} 0
+"375
+[v _I2C1_CounterSet I2C1_CounterSet `(v  1 s 1 I2C1_CounterSet ]
+{
+[v I2C1_CounterSet@counter counter `uc  1 p 1 wreg ]
+[v I2C1_CounterSet@counter counter `uc  1 p 1 wreg ]
+"377
+[v I2C1_CounterSet@counter counter `uc  1 p 1 23 ]
+"378
+} 0
+"360
+[v _I2C1_AddrTransmit I2C1_AddrTransmit `(v  1 s 1 I2C1_AddrTransmit ]
+{
+[v I2C1_AddrTransmit@addr addr `uc  1 p 1 wreg ]
+[v I2C1_AddrTransmit@addr addr `uc  1 p 1 wreg ]
+"362
+[v I2C1_AddrTransmit@addr addr `uc  1 p 1 23 ]
+"363
+} 0
+"219
+[v _I2C1_IsBusy I2C1_IsBusy `(a  1 e 1 0 ]
+{
+"222
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 33 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 32 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 23 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 31 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 1 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 0 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 103 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S6462 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S6467 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S6470 . 4 `l 1 i 4 0 `d 1 f 4 0 `S6462 1 fAsBytes 4 0 `S6467 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S6470  1 a 4 56 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 51 ]
+[s S6538 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S6541 . 2 `s 1 i 2 0 `us 1 n 2 0 `S6538 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S6541  1 a 2 60 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 55 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 50 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 49 ]
+"8
+[v ___flmul@b b `d  1 p 4 37 ]
+[v ___flmul@a a `d  1 p 4 41 ]
+"205
+} 0
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 81 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 74 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 79 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 86 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 85 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 78 ]
+"11
+[v ___fldiv@b b `d  1 p 4 62 ]
+[v ___fldiv@a a `d  1 p 4 66 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 102 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 101 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 100 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 99 ]
+"10
+[v ___fladd@b b `d  1 p 4 87 ]
+[v ___fladd@a a `d  1 p 4 91 ]
+"237
+} 0
+"11 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Flujometros/flujometros.c
+[v _FlujometroInit FlujometroInit `(v  1 e 1 0 ]
+{
+[s S29 flujometro 20 `*.38(v 1 Init 3 0 `uc 1 Pin 1 3 `us 1 Flujo 2 4 `us 1 FlujoMax 2 6 `*.38(v 1 SetFlujo 3 8 `*.38(us 1 GetFlujo 3 11 `*.38(v 1 SetFlujoMax 3 14 `*.38(us 1 GetFlujoMax 3 17 ]
+"12
+[v FlujometroInit@pFlujometro pFlujometro `*.39S29  1 a 2 28 ]
+"11
+[v FlujometroInit@pFlujom pFlujom `*.39v  1 p 2 23 ]
+[v FlujometroInit@Pin Pin `uc  1 p 1 25 ]
+[v FlujometroInit@FlujoMax FlujoMax `us  1 p 2 26 ]
+"15
+} 0
+"80 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"127
+} 0
+"439 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+{
+"441
+[v UART1_TransmitISR@tempTxTail tempTxTail `uc  1 a 1 0 ]
+"459
+} 0
+"357
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+{
+"360
+[v UART1_ReceiveISR@tempRxHead tempRxHead `uc  1 a 1 16 ]
+"359
+[v UART1_ReceiveISR@regValue regValue `uc  1 a 1 15 ]
+"412
+} 0
+"26 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtHAL.c
+[v _UltrasonicAtomization_RxDecodeSerialFrame UltrasonicAtomization_RxDecodeSerialFrame `(v  1 e 1 0 ]
+{
+"44
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+{
+"5
+[v memset@p p `*.39uc  1 a 2 6 ]
+"3
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"10
+} 0
+"23 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\Ultrasonic_At/UltrasonicAtEventHandler.c
+[v _UltrasonicAtomization_DecodeRxFrame UltrasonicAtomization_DecodeRxFrame `(v  1 e 1 0 ]
+{
+"26
+[v UltrasonicAtomization_DecodeRxFrame@unidades unidades `us  1 a 2 12 ]
+[v UltrasonicAtomization_DecodeRxFrame@decenas decenas `us  1 a 2 10 ]
+[v UltrasonicAtomization_DecodeRxFrame@centenas centenas `us  1 a 2 8 ]
+[v UltrasonicAtomization_DecodeRxFrame@millares millares `us  1 a 2 6 ]
+"23
+[v UltrasonicAtomization_DecodeRxFrame@pQueueHead pQueueHead `*.39uc  1 p 2 0 ]
+"79
+} 0
+"339 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+{
+"341
+[v UART1_Read@readValue readValue `uc  1 a 1 1 ]
+"342
+[v UART1_Read@tempRxTail tempRxTail `uc  1 a 1 0 ]
+"354
+} 0
+"503
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+{
+"506
+} 0
+"498
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+{
+"501
+} 0
+"493
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+{
+"496
+} 0
+"483
+[v _UART1_GeneralISR UART1_GeneralISR `(v  1 e 1 0 ]
+{
+"491
+} 0
+"158 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"168
+} 0
+"175
+[v _TMR0_DefaultCallback TMR0_DefaultCallback `(v  1 s 1 TMR0_DefaultCallback ]
+{
+"178
+} 0
+"43 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\app_lm35_int.c
+[v _temperatureSensor_Acquire temperatureSensor_Acquire `(v  1 e 1 0 ]
+{
+"58
+} 0
+"148 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/timer/src/tmr0.c
+[v i2_TMR0_TMRInterruptEnable TMR0_TMRInterruptEnable `(v  1 e 1 0 ]
+{
+"151
+} 0
+"153
+[v i2_TMR0_TMRInterruptDisable TMR0_TMRInterruptDisable `(v  1 e 1 0 ]
+{
+"156
+} 0
+"173 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[v _tempSensor_DisplayValue tempSensor_DisplayValue `(v  1 s 1 tempSensor_DisplayValue ]
+{
+"175
+[v tempSensor_DisplayValue@temporalval temporalval `f  1 a 4 10 ]
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"174
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v tempSensor_DisplayValue@ptempSensor ptempSensor `*.39S3236  1 a 2 14 ]
+"176
+[v tempSensor_DisplayValue@tempInt tempInt `us  1 a 2 7 ]
+"177
+[v tempSensor_DisplayValue@tempDec tempDec `uc  1 a 1 9 ]
+"173
+[v tempSensor_DisplayValue@pSensor pSensor `*.39v  1 p 2 93 ]
+"182
+} 0
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v i2___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v i2___fltol@exp1 exp1 `uc  1 a 1 48 ]
+[v i2___fltol@sign1 sign1 `uc  1 a 1 47 ]
+"43
+[v i2___fltol@f1 f1 `d  1 p 4 39 ]
+"70
+} 0
+"130 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\TEMP_SENSOR/TempSensor.c
+[v _tempSensor_Read tempSensor_Read `(*.39f  1 s 3 tempSensor_Read ]
+{
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"131
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v tempSensor_Read@ptempSensor ptempSensor `*.39S3236  1 a 2 56 ]
+"130
+[v tempSensor_Read@pSensor pSensor `*.39v  1 p 2 53 ]
+"135
+} 0
+"100
+[v _tempSensor_GetanalogPin tempSensor_GetanalogPin `(*.39E17556  1 s 3 tempSensor_GetanalogPin ]
+{
+[s S2283 . 72 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 TransmitEnable 3 21 `*.38(v 1 TransmitDisable 3 24 `*.38(v 1 AutoBaudSet 3 27 `*.38(a 1 AutoBaudQuery 3 30 `*.38(a 1 AutoBaudEventEnableGet 3 33 `*.38(v 1 BRGCountSet 3 36 `*.38(ul 1 BRGCountGet 3 39 `*.38(v 1 BaudRateSet 3 42 `*.38(ul 1 BaudRateGet 3 45 `*.38(ui 1 ErrorGet 3 48 `*.38(v 1 TxCompleteCallbackRegister 3 51 `*.38(v 1 RxCompleteCallbackRegister 3 54 `*.38(v 1 TxCollisionCallbackRegister 3 57 `*.38(v 1 FramingErrorCallbackRegister 3 60 `*.38(v 1 OverrunErrorCallbackRegister 3 63 `*.38(v 1 ParityErrorCallbackRegister 3 66 `*.38(v 1 EventCallbackRegister 3 69 ]
+"101
+[u S3126 . 72 `S2283 1 UART1 72 0 ]
+[s S3139 . 112 `*.31uc 1 ID 1 0 `*.31uc 1 Name 1 1 `f 1 readVal 4 2 `*.31uc 1 writeVal 1 6 `S3126 1 COM 72 7 `*.38(v 1 Init 3 79 `*.38(v 1 Write 3 82 `*.38(*.3f 1 ReadFilter 3 85 `*.38(*.39f 1 Read 3 88 `*.38(v 1 DisplayRegister 3 91 `*.38(v 1 DisplayValue 3 94 `*.38(v 1 Calibrate 3 97 `*.38(v 1 setID 3 100 `*.38(*.31uc 1 getID 3 103 `*.38(v 1 setName 3 106 `*.38(*.31uc 1 getName 3 109 ]
+[s S3216 . 15 `*.38(v 1 Init 3 0 `*.38(v 1 SetAnalogPin 3 3 `*.38(*.39E17556 1 GetAnalogPin 3 6 `*.38(f 1 ReadTemp 3 9 `*.38(f 1 ScaleTemp 3 12 ]
+[s S3236 . 134 `E17556 1 analogPin 1 0 `S3139 1 sensor 112 1 `S3216 1 lm35 15 113 `*.38(v 1 SetanalogPin 3 128 `*.38(*.39E17556 1 GetanalogPin 3 131 ]
+[v tempSensor_GetanalogPin@ptempSensor ptempSensor `*.39S3236  1 a 2 3 ]
+"100
+[v tempSensor_GetanalogPin@pSensor pSensor `*.39v  1 p 2 0 ]
+"103
+} 0
+"18 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\LM35_TI/LM35_TI.c
+[v _LM35_SetAnalogPin LM35_SetAnalogPin `(v  1 e 1 0 ]
+{
+[v LM35_SetAnalogPin@analogPin analogPin `*.39E377  1 p 2 5 ]
+"20
+} 0
+"26
+[v _LM35_ReadTemperature LM35_ReadTemperature `(f  1 e 4 0 ]
+{
+"28
+[v LM35_ReadTemperature@temperature temperature `f  1 a 4 43 ]
+"27
+[v LM35_ReadTemperature@readADC readADC `us  1 a 2 51 ]
+"30
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v i2___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v i2___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v i2___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v i2___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v i2___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v i2___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v i2___xxtofl@sign sign `uc  1 p 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v i2___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S6462 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S6467 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S6470 . 4 `l 1 i 4 0 `d 1 f 4 0 `S6462 1 fAsBytes 4 0 `S6467 1 fAsWords 4 0 ]
+[v i2___flmul@prod prod `S6470  1 a 4 33 ]
+"12
+[v i2___flmul@grs grs `ul  1 a 4 27 ]
+[s S6538 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S6541 . 2 `s 1 i 2 0 `us 1 n 2 0 `S6538 1 nAsBytes 2 0 ]
+[v i2___flmul@temp temp `S6541  1 a 2 37 ]
+"10
+[v i2___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v i2___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v i2___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v i2___flmul@b b `d  1 p 4 14 ]
+[v i2___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"196 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/adc/src/adc.c
+[v _ADC_ChannelSelectAndConvert ADC_ChannelSelectAndConvert `(s  1 e 2 0 ]
+{
+[v ADC_ChannelSelectAndConvert@channel channel `E17119  1 p 1 wreg ]
+[v ADC_ChannelSelectAndConvert@channel channel `E17119  1 p 1 wreg ]
+"198
+[v ADC_ChannelSelectAndConvert@channel channel `E17119  1 p 1 4 ]
+"208
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 91 ]
+"5
+[v printf@fmt fmt `*.31Cuc  1 p 1 0 ]
+"13
+} 0
+"1817 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.31uc  1 a 1 90 ]
+[s S6627 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S6627  1 p 2 85 ]
+[v vfprintf@fmt fmt `*.31Cuc  1 p 1 87 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 88 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S6651 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S6651  1 a 4 79 ]
+"1179
+[v vfpfcnvrt@cp cp `*.31uc  1 a 1 84 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 83 ]
+[s S6627 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S6627  1 p 2 71 ]
+[v vfpfcnvrt@fmt fmt `*.39*.31uc  1 p 2 73 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 75 ]
+"1814
+} 0
+"942
+[v _stoa stoa `(v  1 s 1 stoa ]
+{
+"945
+[v stoa@l l `i  1 a 2 24 ]
+"944
+[v stoa@cp cp `*.34uc  1 a 2 22 ]
+"947
+[v stoa@w w `i  1 a 2 20 ]
+"945
+[v stoa@p p `i  1 a 2 18 ]
+[s S6627 _IO_FILE 0 ]
+"942
+[v stoa@fp fp `*.39S6627  1 p 2 12 ]
+[v stoa@s s `*.34uc  1 p 2 14 ]
+"997
+} 0
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+"1164
+[v read_prec_or_width@c c `uc  1 a 1 6 ]
+"1159
+[v read_prec_or_width@n n `i  1 a 2 7 ]
+"1158
+[v read_prec_or_width@fmt fmt `*.39*.31Cuc  1 p 2 0 ]
+[v read_prec_or_width@ap ap `*.39[1]*.39v  1 p 2 2 ]
+"1171
+} 0
+"513
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+"516
+[v dtoa@i i `i  1 a 2 69 ]
+[v dtoa@w w `i  1 a 2 65 ]
+"515
+[v dtoa@s s `uc  1 a 1 68 ]
+"520
+[v dtoa@p p `a  1 a 1 67 ]
+[s S6627 _IO_FILE 0 ]
+"513
+[v dtoa@fp fp `*.39S6627  1 p 2 59 ]
+[v dtoa@d d `i  1 p 2 61 ]
+"583
+} 0
+"193
+[v _pad pad `(v  1 s 1 pad ]
+{
+"195
+[v pad@i i `i  1 a 2 26 ]
+[s S6627 _IO_FILE 0 ]
+"193
+[v pad@fp fp `*.39S6627  1 p 2 19 ]
+[v pad@buf buf `*.39uc  1 p 2 21 ]
+[v pad@p p `i  1 p 2 23 ]
+"226
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 17 ]
+"10
+[v fputs@c c `uc  1 a 1 16 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 12 ]
+[u S6606 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S6609 _IO_FILE 11 `S6606 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S6609  1 p 2 14 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 3 ]
+[u S6606 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S6609 _IO_FILE 11 `S6606 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S6609  1 p 2 5 ]
+"24
+} 0
+"470 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/uart/src/uart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 2 ]
+"477
+} 0
+"414
+[v i2_UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+[v i2UART1_Write@txData txData `uc  1 p 1 wreg ]
+"416
+[v i2UART1_Write@tempTxHead tempTxHead `uc  1 a 1 0 ]
+"414
+[v i2UART1_Write@txData txData `uc  1 p 1 wreg ]
+"418
+[v i2UART1_Write@txData txData `uc  1 p 1 1 ]
+"436
+} 0
+"322
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+{
+"325
+} 0
+"1 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 55 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 54 ]
+[v ___awmod@counter counter `uc  1 a 1 53 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 49 ]
+[v ___awmod@divisor divisor `i  1 p 2 51 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"307 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_TX_ISR I2C1_TX_ISR `(v  1 e 1 0 ]
+{
+"310
+} 0
+"301
+[v _I2C1_RX_ISR I2C1_RX_ISR `(v  1 e 1 0 ]
+{
+"305
+} 0
+"370
+[v _I2C1_DataReceive I2C1_DataReceive `(uc  1 s 1 I2C1_DataReceive ]
+{
+"373
+} 0
+"232
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+{
+"263
+} 0
+"315
+[v _I2C1_ReadStart I2C1_ReadStart `(v  1 s 1 I2C1_ReadStart ]
+{
+"324
+} 0
+"355
+[v i2_I2C1_StartSend I2C1_StartSend `(v  1 s 1 i2_I2C1_StartSend ]
+{
+"358
+} 0
+"360
+[v i2_I2C1_AddrTransmit I2C1_AddrTransmit `(v  1 s 1 i2_I2C1_AddrTransmit ]
+{
+[v i2I2C1_AddrTransmit@addr addr `uc  1 p 1 wreg ]
+[v i2I2C1_AddrTransmit@addr addr `uc  1 p 1 wreg ]
+"362
+[v i2I2C1_AddrTransmit@addr addr `uc  1 p 1 0 ]
+"363
+} 0
+"341
+[v _I2C1_Close I2C1_Close `(v  1 s 1 I2C1_Close ]
+{
+"350
+} 0
+"265
+[v _I2C1_ERROR_ISR I2C1_ERROR_ISR `(v  1 e 1 0 ]
+{
+"299
+} 0
+"421
+[v _I2C1_StopSend I2C1_StopSend `(v  1 s 1 I2C1_StopSend ]
+{
+"429
+} 0
+"375
+[v i2_I2C1_CounterSet I2C1_CounterSet `(v  1 s 1 i2_I2C1_CounterSet ]
+{
+[v i2I2C1_CounterSet@counter counter `uc  1 p 1 wreg ]
+[v i2I2C1_CounterSet@counter counter `uc  1 p 1 wreg ]
+"377
+[v i2I2C1_CounterSet@counter counter `uc  1 p 1 0 ]
+"378
+} 0
+"416
+[v _I2C1_RestartDisable I2C1_RestartDisable `T(v  1 s 1 I2C1_RestartDisable ]
+{
+"419
+} 0
+"365
+[v _I2C1_DataTransmit I2C1_DataTransmit `(v  1 s 1 I2C1_DataTransmit ]
+{
+[v I2C1_DataTransmit@data data `uc  1 p 1 wreg ]
+[v I2C1_DataTransmit@data data `uc  1 p 1 wreg ]
+"367
+[v I2C1_DataTransmit@data data `uc  1 p 1 0 ]
+"368
+} 0
+"380
+[v _I2C1_CounterGet I2C1_CounterGet `(uc  1 s 1 I2C1_CounterGet ]
+{
+"383
+} 0
+"431
+[v _I2C1_IsNack I2C1_IsNack `(a  1 s 1 I2C1_IsNack ]
+{
+"434
+} 0
+"446
+[v _I2C1_IsData I2C1_IsData `(a  1 s 1 I2C1_IsData ]
+{
+"449
+} 0
+"441
+[v _I2C1_IsBusTimeOut I2C1_IsBusTimeOut `(a  1 s 1 I2C1_IsBusTimeOut ]
+{
+"444
+} 0
+"436
+[v _I2C1_IsBusCol I2C1_IsBusCol `(a  1 s 1 I2C1_IsBusCol ]
+{
+"439
+} 0
+"451
+[v _I2C1_IsAddr I2C1_IsAddr `(a  1 s 1 I2C1_IsAddr ]
+{
+"454
+} 0
+"385
+[v _I2C1_BusReset I2C1_BusReset `T(v  1 s 1 I2C1_BusReset ]
+{
+"409
+} 0
+"456
+[v i2_I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 i2_I2C1_InterruptsEnable ]
+{
+"467
+} 0
+"469
+[v _I2C1_InterruptsDisable I2C1_InterruptsDisable `T(v  1 s 1 I2C1_InterruptsDisable ]
+{
+"477
+} 0
+"479
+[v _I2C1_InterruptsClear I2C1_InterruptsClear `T(v  1 s 1 I2C1_InterruptsClear ]
+{
+"482
+} 0
+"484
+[v _I2C1_ErrorFlagsClear I2C1_ErrorFlagsClear `T(v  1 s 1 I2C1_ErrorFlagsClear ]
+{
+"489
+} 0
+"491
+[v _I2C1_BufferClear I2C1_BufferClear `T(v  1 s 1 I2C1_BufferClear ]
+{
+"495
+} 0
+"422 C:\Users\erjo_\Documents\Escuela\Maestría\Programas\MPLABX\Nueva Carpeta\Atomizacion_q43_main_lm35.X\mcc_generated_files/adc/src/adc.c
+[v _ADC_ThresholdISR ADC_ThresholdISR `(v  1 e 1 0 ]
+{
+"434
+} 0
+"408
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"420
+} 0
